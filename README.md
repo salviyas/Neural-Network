@@ -2,9 +2,9 @@
 This project aims to classify handwritten digits (0-9) from images using a neural network model built with TensorFlow. The dataset used is the MNIST dataset, which consists of 60,000 training images and 10,000 test images of handwritten digits. The goal is to train a neural network to accurately predict the digits from the images.
 
 # Steps Involved:
-Data Loading: We use the tensorflow.keras.datasets.mnist.load_data() method to load the MNIST dataset. The dataset is split into training and testing sets.
+* Data Loading: We use the tensorflow.keras.datasets.mnist.load_data() method to load the MNIST dataset. The dataset is split into training and testing sets.
 
-\\ btrain_images: Images for training the model.
+* btrain_images: Images for training the model.
 train_labels: Corresponding labels (digits) for the training images.
 test_images: Images used for testing the trained model.
 test_labels: Corresponding labels for the test images.
