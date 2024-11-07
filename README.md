@@ -5,14 +5,14 @@ This project aims to classify handwritten digits (0-9) from images using a neura
 * Data Loading: We use the tensorflow.keras.datasets.mnist.load_data() method to load the MNIST dataset. The dataset is split into training and testing sets.
 
 * btrain_images: Images for training the model.
-train_labels: Corresponding labels (digits) for the training images.
-test_images: Images used for testing the trained model.
-test_labels: Corresponding labels for the test images.
-Data Preprocessing:
+* train_labels: Corresponding labels (digits) for the training images.
+* test_images: Images used for testing the trained model.
+* test_labels: Corresponding labels for the test images.
+* Data Preprocessing:
 
-Normalize the images by dividing pixel values by 255, so that each pixel is between 0 and 1. This step helps in faster convergence during training.
+* Normalize the images by dividing pixel values by 255, so that each pixel is between 0 and 1. This step helps in faster convergence during training.
 Reshape the images to fit the input shape required by the neural network model.
-Building the Neural Network:
+* Building the Neural Network:
 
 A simple feedforward neural network (fully connected layers) will be built using Keras.
 The input layer takes 28x28 pixel images (flattened into a 1D array).
